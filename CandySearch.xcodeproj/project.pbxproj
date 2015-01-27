@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044277F31A77333A00CFDA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044277F21A77333A00CFDA44 /* AppDelegate.swift */; };
+		044277F51A77333A00CFDA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044277F41A77333A00CFDA44 /* ViewController.swift */; };
+		044277F81A77333A00CFDA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044277F61A77333A00CFDA44 /* Main.storyboard */; };
+		044277FA1A77333A00CFDA44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044277F91A77333A00CFDA44 /* Images.xcassets */; };
+		044277FD1A77333A00CFDA44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044277FB1A77333A00CFDA44 /* LaunchScreen.xib */; };
+		044278091A77333A00CFDA44 /* CandySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044278081A77333A00CFDA44 /* CandySearchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044278031A77333A00CFDA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044277E51A77333A00CFDA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044277EC1A77333A00CFDA44;
+			remoteInfo = CandySearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044277ED1A77333A00CFDA44 /* CandySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044277F11A77333A00CFDA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044277F21A77333A00CFDA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044277F41A77333A00CFDA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044277F71A77333A00CFDA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044277F91A77333A00CFDA44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044277FC1A77333A00CFDA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		044278021A77333A00CFDA44 /* CandySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044278071A77333A00CFDA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044278081A77333A00CFDA44 /* CandySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySearchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044277EA1A77333A00CFDA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044277FF1A77333A00CFDA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044277E41A77333A00CFDA44 = {
+			isa = PBXGroup;
+			children = (
+				044277EF1A77333A00CFDA44 /* CandySearch */,
+				044278051A77333A00CFDA44 /* CandySearchTests */,
+				044277EE1A77333A00CFDA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044277EE1A77333A00CFDA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044277ED1A77333A00CFDA44 /* CandySearch.app */,
+				044278021A77333A00CFDA44 /* CandySearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044277EF1A77333A00CFDA44 /* CandySearch */ = {
+			isa = PBXGroup;
+			children = (
+				044277F21A77333A00CFDA44 /* AppDelegate.swift */,
+				044277F41A77333A00CFDA44 /* ViewController.swift */,
+				044277F61A77333A00CFDA44 /* Main.storyboard */,
+				044277F91A77333A00CFDA44 /* Images.xcassets */,
+				044277FB1A77333A00CFDA44 /* LaunchScreen.xib */,
+				044277F01A77333A00CFDA44 /* Supporting Files */,
+			);
+			path = CandySearch;
+			sourceTree = "<group>";
+		};
+		044277F01A77333A00CFDA44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044277F11A77333A00CFDA44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044278051A77333A00CFDA44 /* CandySearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				044278081A77333A00CFDA44 /* CandySearchTests.swift */,
+				044278061A77333A00CFDA44 /* Supporting Files */,
+			);
+			path = CandySearchTests;
+			sourceTree = "<group>";
+		};
+		044278061A77333A00CFDA44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044278071A77333A00CFDA44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044277EC1A77333A00CFDA44 /* CandySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442780C1A77333A00CFDA44 /* Build configuration list for PBXNativeTarget "CandySearch" */;
+			buildPhases = (
+				044277E91A77333A00CFDA44 /* Sources */,
+				044277EA1A77333A00CFDA44 /* Frameworks */,
+				044277EB1A77333A00CFDA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandySearch;
+			productName = CandySearch;
+			productReference = 044277ED1A77333A00CFDA44 /* CandySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044278011A77333A00CFDA44 /* CandySearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442780F1A77333A00CFDA44 /* Build configuration list for PBXNativeTarget "CandySearchTests" */;
+			buildPhases = (
+				044277FE1A77333A00CFDA44 /* Sources */,
+				044277FF1A77333A00CFDA44 /* Frameworks */,
+				044278001A77333A00CFDA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044278041A77333A00CFDA44 /* PBXTargetDependency */,
+			);
+			name = CandySearchTests;
+			productName = CandySearchTests;
+			productReference = 044278021A77333A00CFDA44 /* CandySearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044277E51A77333A00CFDA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					044277EC1A77333A00CFDA44 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					044278011A77333A00CFDA44 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 044277EC1A77333A00CFDA44;
+					};
+				};
+			};
+			buildConfigurationList = 044277E81A77333A00CFDA44 /* Build configuration list for PBXProject "CandySearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044277E41A77333A00CFDA44;
+			productRefGroup = 044277EE1A77333A00CFDA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044277EC1A77333A00CFDA44 /* CandySearch */,
+				044278011A77333A00CFDA44 /* CandySearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044277EB1A77333A00CFDA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044277F81A77333A00CFDA44 /* Main.storyboard in Resources */,
+				044277FD1A77333A00CFDA44 /* LaunchScreen.xib in Resources */,
+				044277FA1A77333A00CFDA44 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044278001A77333A00CFDA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044277E91A77333A00CFDA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044277F51A77333A00CFDA44 /* ViewController.swift in Sources */,
+				044277F31A77333A00CFDA44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044277FE1A77333A00CFDA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044278091A77333A00CFDA44 /* CandySearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044278041A77333A00CFDA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044277EC1A77333A00CFDA44 /* CandySearch */;
+			targetProxy = 044278031A77333A00CFDA44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044277F61A77333A00CFDA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044277F71A77333A00CFDA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044277FB1A77333A00CFDA44 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044277FC1A77333A00CFDA44 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0442780A1A77333A00CFDA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0442780B1A77333A00CFDA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0442780D1A77333A00CFDA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CandySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0442780E1A77333A00CFDA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CandySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044278101A77333A00CFDA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandySearch.app/CandySearch";
+			};
+			name = Debug;
+		};
+		044278111A77333A00CFDA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandySearch.app/CandySearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044277E81A77333A00CFDA44 /* Build configuration list for PBXProject "CandySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442780A1A77333A00CFDA44 /* Debug */,
+				0442780B1A77333A00CFDA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442780C1A77333A00CFDA44 /* Build configuration list for PBXNativeTarget "CandySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442780D1A77333A00CFDA44 /* Debug */,
+				0442780E1A77333A00CFDA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0442780F1A77333A00CFDA44 /* Build configuration list for PBXNativeTarget "CandySearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044278101A77333A00CFDA44 /* Debug */,
+				044278111A77333A00CFDA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044277E51A77333A00CFDA44 /* Project object */;
+}
