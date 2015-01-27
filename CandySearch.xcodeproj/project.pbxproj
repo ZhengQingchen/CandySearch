@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		044277F31A77333A00CFDA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044277F21A77333A00CFDA44 /* AppDelegate.swift */; };
-		044277F51A77333A00CFDA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044277F41A77333A00CFDA44 /* ViewController.swift */; };
 		044277F81A77333A00CFDA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044277F61A77333A00CFDA44 /* Main.storyboard */; };
 		044277FA1A77333A00CFDA44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044277F91A77333A00CFDA44 /* Images.xcassets */; };
 		044277FD1A77333A00CFDA44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044277FB1A77333A00CFDA44 /* LaunchScreen.xib */; };
 		044278091A77333A00CFDA44 /* CandySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044278081A77333A00CFDA44 /* CandySearchTests.swift */; };
+		044278131A77334B00CFDA44 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044278121A77334B00CFDA44 /* Candy.swift */; };
+		044278151A7733D900CFDA44 /* CandyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044278141A7733D900CFDA44 /* CandyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		044277ED1A77333A00CFDA44 /* CandySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044277F11A77333A00CFDA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044277F21A77333A00CFDA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044277F41A77333A00CFDA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		044277F71A77333A00CFDA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044277F91A77333A00CFDA44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		044277FC1A77333A00CFDA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		044278021A77333A00CFDA44 /* CandySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044278071A77333A00CFDA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044278081A77333A00CFDA44 /* CandySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySearchTests.swift; sourceTree = "<group>"; };
+		044278121A77334B00CFDA44 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		044278141A7733D900CFDA44 /* CandyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				044277F21A77333A00CFDA44 /* AppDelegate.swift */,
-				044277F41A77333A00CFDA44 /* ViewController.swift */,
+				044278121A77334B00CFDA44 /* Candy.swift */,
 				044277F61A77333A00CFDA44 /* Main.storyboard */,
+				044278141A7733D900CFDA44 /* CandyTableViewController.swift */,
 				044277F91A77333A00CFDA44 /* Images.xcassets */,
 				044277FB1A77333A00CFDA44 /* LaunchScreen.xib */,
 				044277F01A77333A00CFDA44 /* Supporting Files */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044277F51A77333A00CFDA44 /* ViewController.swift in Sources */,
+				044278131A77334B00CFDA44 /* Candy.swift in Sources */,
 				044277F31A77333A00CFDA44 /* AppDelegate.swift in Sources */,
+				044278151A7733D900CFDA44 /* CandyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
